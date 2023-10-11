@@ -38,14 +38,15 @@ public class Main {
             System.out.println("Минимальные затраты за день: " + min);
             System.out.println("Минимальные затраты за день: " + max);
         }
-    public static void task3(); {
+
+    public static void task3() {
         int[] numberArray = generateRandomArray();
         int sum = 0;
         for (int i : numberArray) {
             sum += i;}
         System.out.println(sum / (float) numberArray.length);
         }
-    public static void task4(); {
+    public static void task4() {
         char[] reverseFullName = {'n','a','v','I',' ','v','o','n','a','v','I'};
         for (int i = reverseFullName.length - 1;i>=0; i--) {
             System.out.println(reverseFullName[i]);
